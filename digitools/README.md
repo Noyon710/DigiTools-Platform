@@ -1,16 +1,73 @@
-# React + Vite
+# DigiTools - Digital Tools Buying Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+DigiTools is a modern digital tools marketplace where users can explore, purchase, and manage premium tools like AI writing, design templates, stock assets, and more.
 
-Currently, two official plugins are available:
+This project is built based on a Figma design and includes dynamic cart functionality, interactive UI, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js (Vite)
+- JavaScript (ES6+)
+- CSS3 (Custom Styling)
+- React Toastify (for alerts)
+- JSON (for product data)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Key Features
+
+### Product System
+- Displays multiple digital tools in a 3-column grid
+- Each product includes:
+  - Name
+  - Description
+  - Price & period
+  - Features list
+  - Tag (Popular, New, Best Seller)
+- "Buy Now" button changes to **"Added To Cart"**
+
+---
+
+### Cart Functionality
+- Add products to cart
+- Remove products individually
+- Dynamic cart count shown in navbar
+- Total price calculation
+- "Proceed to Checkout" clears cart
+
+---
+
+### Toggle System
+- Toggle between **Products** and **Cart**
+- Default shows Products
+- Cart view shows selected items
+
+---
+
+### Notification System
+- React Toastify used for:
+  - Add to cart
+  - Remove from cart
+  - Checkout
+  - Empty cart warning
+
+---
+
+###  UI & Design
+- Pixel-perfect Figma based design
+- Gradient buttons and sections
+- Hover effects on buttons
+- Sticky navbar (remains on scroll)
+
+---
+
+### Responsive Design
+- Fully responsive for:
+  - Mobile
+  - Tablet
+  - Desktop
+
+
