@@ -20,8 +20,8 @@ This project is built based on a Figma design and includes dynamic cart function
 ##  Key Features
 
 ### Product System
-- Displays multiple digital tools in a 3-column grid
-- Each product includes:
+  - Displays multiple digital tools in a 3-column grid
+  - Each product includes:
   - Name
   - Description
   - Price & period
