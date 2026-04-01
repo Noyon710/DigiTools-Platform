@@ -14,18 +14,18 @@ function App() {
 
      const addToCart = (product) => {
       setCart((prev) => [...prev, product]);
-      toast.success(`${product.name} added to cart`);
+        toast.success(`${product.name} added to cart`);
     };
 
   const removeFromCart = (indexToRemove) => {
         const removedItem = cart[indexToRemove];
-    setCart((prev) => prev.filter((_, index) => index !== indexToRemove));
-    toast.error(`${removedItem.name} removed from cart`);
+      setCart((prev) => prev.filter((_, index) => index !== indexToRemove));
+       toast.error(`${removedItem.name} removed from cart`);
   };
 
   const handleCheckout = () => {
          if (cart.length === 0) {
-          toast.warning("Your cart is empty");
+         toast.warning("Your cart is empty");
            return;
     }
 
