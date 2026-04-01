@@ -551,13 +551,13 @@ img {
 
 .step-icon-bg {
   width: 84px;
-  height: 84px;
-  border-radius: 50%;
-  background: #f3ebff;
-  display: grid;
+   height: 84px;
+   border-radius: 50%;
+   background: #f3ebff;
+    display: grid;
   place-items: center;
-  margin: 0 auto 24px;
-  font-size: 34px;
+   margin: 0 auto 24px;
+   font-size: 34px;
 }
 
 .step-card h3 {
