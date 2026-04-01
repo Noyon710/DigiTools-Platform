@@ -415,9 +415,10 @@ function App() {
           <div>
             <h4>Social Links</h4>
             <div className="social-icons">
-              <a href="https://youtube.com" target="_blank" rel="noreferrer">▶</a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer">f</a>
-              <a href="https://x.com" target="_blank" rel="noreferrer">X</a>
+              
+          <a href="https://youtube.com" target="_blank" rel="noreferrer">▶</a>
+           <a href="https://facebook.com" target="_blank" rel="noreferrer">f</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer">X</a>
             </div>
           </div>
         </div>
